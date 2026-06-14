@@ -1,0 +1,9 @@
+{
+  "Name": "Wedding Dress Mod",
+  "Author": "Vrabacis",
+  "Version": "1.0.0",
+  "Description": "Добавляет свадебное платье в игру Stardew Valley",
+  "UniqueID": "Vrabacis.WeddingDress",
+  "MinimumApiVersion": "3.13.0",
+  "UpdateKeys": []
+}
