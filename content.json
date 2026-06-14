@@ -3,6 +3,7 @@
     {
       "Action": "EditData",
       "Target": "Data/Shirts",
+      "When": [],
       "Entries": {
         "WeddingDress": "Wedding Dress/0/0/0"
       }
@@ -10,7 +11,25 @@
     {
       "Action": "Load",
       "Target": "Characters/Farmer/Shirts",
-      "FromFile": "assets/wedding_dress.png"
+      "FromFile": "assets/wedding_dress.png",
+      "When": []
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "Desney/Shirts": {
+          "Entries": [
+            {
+              "Id": "WeddingDress",
+              "ItemType": "Clothing",
+              "Object": "WeddingDress",
+              "Price": 5000,
+              "Condition": "PLAYER_MONEY G 5000"
+            }
+          ]
+        }
+      }
     }
   ]
 }
